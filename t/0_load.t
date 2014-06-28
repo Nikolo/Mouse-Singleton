@@ -1,9 +1,7 @@
 #!perl -T
 package Foo;
-use strict;
-use warnings;
-use Test::More tests => 1;
 use Mouse;
+use Test::More tests => 1;
 
 require_ok 'Mouse::Singleton';
 

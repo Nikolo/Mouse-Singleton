@@ -1,9 +1,10 @@
 package Mouse::Singleton;
 
 use utf8;
-use strict;
 use attributes;
 use Mouse;
+
+our $VERSION = '0.5.1';
 
 our $context;
 sub import {
