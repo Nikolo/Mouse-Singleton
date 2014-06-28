@@ -6,7 +6,7 @@ use Test::More tests => 3;
 {
 	package Foo;
 	use Mouse;
-	extends 'Mouse::Singleton';
+	extends 'MouseX::Singleton';
 
 	sub static_method {
 		return $_[0];

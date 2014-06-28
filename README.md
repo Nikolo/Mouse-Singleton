@@ -1,15 +1,15 @@
-Mouse-Singleton
+MouseX-Singleton
 ===============
 
 # VERSION
 
-This document describes Mouse-Singleton version 0.5.1
+This document describes MouseX-Singleton version 0.5.1
 
 # SYNOPSIS
 
     package Foo;
     use Mouse; # automatically turns on strict and warnings
-    extends 'Mouse::Singleton';
+    extends 'MouseX::Singleton';
 
     has bar => (is => 'rw', isa => 'Int');
 
@@ -44,9 +44,9 @@ for declare non static method of singleton object use attributes 'method'
 
 # SOURCE CODE ACCESS
 
-We have a public git repository [https://github.com/Nikolo/Mouse-Singleton](https://github.com/Nikolo/Mouse-Singleton):.
+We have a public git repository [https://github.com/Nikolo/MouseX-Singleton](https://github.com/Nikolo/MouseX-Singleton):.
 
-    git clone https://github.com/Nikolo/Mouse-Singleton.git
+    git clone https://github.com/Nikolo/MouseX-Singleton.git
 
 # SEE ALSO
 
@@ -59,8 +59,8 @@ Nikolas Shulyakovskiy <shulyakovskiy at mail.ru>
 # BUGS
 
 All complex software has bugs lurking in it, and this module is no exception.
-Please report any bugs to `bug-mouse-singleton at rt.cpan.org`, or through the web
-interface at [http://rt.cpan.org/Public/Dist/Display.html?Name=Mouse-Singleton](http://rt.cpan.org/Public/Dist/Display.html?Name=Mouse-Singleton)
+Please report any bugs to `bug-MouseX-Singleton at rt.cpan.org`, or through the web
+interface at [http://rt.cpan.org/Public/Dist/Display.html?Name=MouseX-Singleton](http://rt.cpan.org/Public/Dist/Display.html?Name=MouseX-Singleton)
 
 # COPYRIGHT AND LICENSE
 

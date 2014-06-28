@@ -1,4 +1,4 @@
-package Mouse::Singleton;
+package MouseX::Singleton;
 
 use utf8;
 use attributes;
